@@ -17,7 +17,7 @@
 
 int main(void)
 {
-
+	select_init();
 
 	return 0;
 }

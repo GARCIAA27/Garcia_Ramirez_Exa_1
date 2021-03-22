@@ -15,6 +15,7 @@
 #include <stdint.h>
 
 void select_init();
-
+void SM_init();
+void white_blink();
 
 #endif /* SELECT_COLOR_H_ */
