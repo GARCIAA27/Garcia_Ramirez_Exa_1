@@ -1,24 +1,20 @@
 /*
- * main.c
+ * Select_Color.h
  *
  *  Created on: 22 mar. 2021
  *      Author: Alexis
  */
 
-
+#ifndef SELECT_COLOR_H_
+#define SELECT_COLOR_H_
 
 #include "Bits.h"
 #include "GPIO.h"
 #include "NVIC.h"
 #include "PIT.h"
-#include "Select_Color.h"
 #include <stdint.h>
 
-
-int main(void)
-{
+void select_init();
 
 
-	return 0;
-}
-
+#endif /* SELECT_COLOR_H_ */

@@ -493,7 +493,7 @@ void GPIO_data_direction_pin(gpio_port_name_t port_name, uint8_t state, uint8_t 
 void SW3_init(void)
 {
 	/**Pin control configuration of GPIOA pin4 (SW3) as GPIO with Pull-Up Enable*/
-	gpio_pin_control_register_t pcr_gpioa_pin_4 = GPIO_MUX1 | GPIO_PE | INTR_FALLING_EDGE;
+	gpio_pin_control_register_t pcr_gpioa_pin_4 = GPIO_MUX1 | GPIO_PE | GPIO_PS| INTR_FALLING_EDGE;
 	GPIO_clock_gating(GPIO_A);
 	/**Pin control configuration of GPIOA pin4 (SW3)*/
 	GPIO_pin_control_register(GPIO_A,bit_4,  &pcr_gpioa_pin_4);
