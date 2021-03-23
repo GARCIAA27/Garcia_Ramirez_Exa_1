@@ -162,7 +162,7 @@ void sw2_sequence(void);
  	 \return void
  */
 void sw3_sequence(void);
-
+void cyan_on();
 #endif /* RGB_H_ */
 
 /***** END OF FILE *****/

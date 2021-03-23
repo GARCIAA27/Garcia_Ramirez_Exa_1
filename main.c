@@ -14,11 +14,13 @@
 #include "Select_Color.h"
 #include <stdint.h>
 
-
 int main(void)
 {
 	select_init();
-
+while(1)
+{
+	state_machine_run();
+}
 	return 0;
 }
 

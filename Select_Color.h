@@ -17,5 +17,6 @@
 void select_init();
 void SM_init();
 void white_blink();
+void state_machine_run();
 
 #endif /* SELECT_COLOR_H_ */

@@ -82,6 +82,13 @@ void purple_on()
 
 } /* purple_on() */
 
+void cyan_on()
+{
+	green_on();
+	blue_on();
+
+}
+
 void white_on()
 {
 	green_on();
